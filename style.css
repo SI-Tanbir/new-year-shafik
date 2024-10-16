@@ -1,0 +1,90 @@
+header {
+    background-image: url(./images/banner/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 150px;
+}
+
+header div {
+
+    text-align: right;
+}
+header p{
+    margin-left: 50%;
+}
+/*style ing woman face page */
+.Women-face{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: aliceblue;
+
+}
+.Women-failure{
+    padding: 200px 100px;
+}
+/* .Women-failure ul{
+    margin-right: 100px;
+} */
+body{margin:0;
+padding:0}
+.my-plans-icons{
+    display: flex;
+    margin-left: 25%;
+    
+}
+.my-plans-banner{
+    margin-top: 50px;
+    
+}
+.my-plans-title{
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 10px;
+    
+
+}
+.my-plans-icons div{
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/* bg watch style */
+.background-watch-image{
+    margin-top: 40px;
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 60px;    
+}
+.background-watch-image h3,.btn-call{
+    margin-left:15% ;
+}
+.background-watch-image h3{
+    color: aliceblue;
+}
+.btn-call{
+    color: orangered;
+    background-color: aliceblue;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+.address-banner{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding: 80px;
+
+}
+.address-banner p{
+    margin-right: 500px;
+}
+.right-banner{
+    padding: 50px;
+}
