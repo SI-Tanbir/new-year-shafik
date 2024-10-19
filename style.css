@@ -85,6 +85,51 @@ padding:0}
 .address-banner p{
     margin-right: 500px;
 }
+
 .right-banner{
     padding: 50px;
+}
+
+/* responsive design */
+
+.hide{
+    display: none;
+}
+@media  screen and (max-width:568px) {
+
+    header{
+        padding: 10px;
+    }
+    header p{
+        margin-left: 0;
+    }
+    .Women-face{
+        background-color: aliceblue;
+    }
+    .women-images img{
+        width: 80%;
+        
+    }
+    .Women-failure {
+        padding: 1rem;
+    }
+
+    .my-plans-icons {
+        margin:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .address-banner {
+        background-color: black;
+        display: inline;
+        padding: 10px;
+    }
+    .right-banner {
+        padding: 0px;
+    }
+
+
+    
 }
