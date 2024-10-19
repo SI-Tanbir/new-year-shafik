@@ -80,6 +80,7 @@ padding:0}
     color: aliceblue;
     display: flex;
     padding: 80px;
+    gap: 10px;
 
 }
 .address-banner p{
@@ -89,6 +90,7 @@ padding:0}
 .right-banner{
     padding: 50px;
 }
+
 
 /* responsive design */
 
@@ -122,10 +124,32 @@ padding:0}
         align-items: baseline;
     }
     .address-banner {
-        background-color: black;
-        display: inline;
+        /* background-color: black; */
+        /* display: inline; */
+        flex-direction: column;
+        flex-wrap: wrap;
         padding: 10px;
     }
+}
+.left-banner{
+    /* width: 100vw; */
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    
+}
+/* .left-banner img{
+    width:30vw;
+} */
+.left-banner-icons{
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: none
+}
+.address-banner p{
+    margin-right: 0px;
+}
     .right-banner {
         padding: 0px;
     }
